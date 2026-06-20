@@ -4,6 +4,8 @@
 
 **A fast, reliable PHP application server — built by the folk, written by AI.**
 
+📖 **Documentation:** <https://folk-project.github.io/folk-releases/>
+
 Folk runs your PHP application as a long-lived process instead of booting it from scratch on every request. It's a runtime written in **Rust** and embedded as a native **PHP extension**, so there's no separate server speaking some wire protocol to your code — PHP runs *in process*, next to the runtime.
 
 The goal is simple: **performance and reliability without the tambourine dance** around installing and configuring an app server.
@@ -18,7 +20,7 @@ pie install folk-project/ext-folk
 composer require folk/laravel   # or folk/symfony, folk/spiral, folk/yii3
 ```
 
-[PIE](https://github.com/php/pie) is the PHP Foundation's extension installer; Composer pulls in the adapter. No hand-rolled worker pools, no protocol glue.
+[PIE](https://github.com/php/pie) is the PHP Foundation's extension installer; Composer pulls in the adapter. No hand-rolled worker pools, no protocol glue. Full installation and configuration guide is in the [documentation](https://folk-project.github.io/folk-releases/).
 
 ---
 

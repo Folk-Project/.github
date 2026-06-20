@@ -4,7 +4,7 @@
 
 **A fast, reliable PHP application server — built by the folk, written by AI.**
 
-📖 **Documentation:** <https://folk-project.github.io/folk-releases/>
+📖 **Documentation:** <https://folk-project.github.io/folk-releases/> · 💬 **Telegram:** <https://t.me/folk_poject>
 
 Folk runs your PHP application as a long-lived process instead of booting it from scratch on every request. It's a runtime written in **Rust** and embedded as a native **PHP extension**, so there's no separate server speaking some wire protocol to your code — PHP runs *in process*, next to the runtime.
 
